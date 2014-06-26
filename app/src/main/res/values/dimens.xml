@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- BOTONES -->
+    <dimen name="btn_storke">2dp</dimen>
+    <dimen name="btn_radius">8dp</dimen>
+
+    <!-- action bar -->
+    <dimen name="action_button_min_width">56dp</dimen>
+
+    <!-- PACIENTE ITEM -->
+    <dimen name="image_w">160dp</dimen>
+    <dimen name="image_h">120dp</dimen>
+    <dimen name="separacion">5dp</dimen>
+
+    <!-- LOGIN -->
+    <dimen name="login_title_margin">20dp</dimen>
+
+    <!-- MAIN -->
+    <dimen name="promocion_title_size">28sp</dimen>
+    <dimen name="promocion_empty_size">20sp</dimen>
+    <!-- MAIN PROMOCION -->
+    <dimen name="main_promocion_title_size">20sp</dimen>
+    <dimen name="main_promocion_precio_size">15sp</dimen>
+
+    <!-- PROMOCION -->
+    <dimen name="promocion_nombre_size">16sp</dimen>
+    <dimen name="promocion_image_size_h">80dp</dimen>
+    <dimen name="promocion_image_size_w">90dp</dimen>
+
+    <!-- PACIENTES -->
+    <dimen name="pacientes_empty">20sp</dimen>
+    <!-- PACIENTES ITEM -->
+    <dimen name="pacientes_item_nombre_size">16sp</dimen>
+    <dimen name="pacientes_item_cedula_size">14sp</dimen>
+    <dimen name="pacientes_item_codigo_size">12sp</dimen>
+    <dimen name="pacientes_item_image_size_w">110dp</dimen>
+    <dimen name="pacientes_item_image_size_h">80dp</dimen>
+    <dimen name="pacientes_item_separacion">5dp</dimen>
+
+    <!-- RESULTADO ITEM -->
+    <dimen name="resultado_item_titulo_size">15sp</dimen>
+
+    <!-- PACIENTE INFO -->
+    <dimen name="paciente_info">10dp</dimen>
+    <dimen name="paciente_image_info">250dp</dimen>
+
+</resources>

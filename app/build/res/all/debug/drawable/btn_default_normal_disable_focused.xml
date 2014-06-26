@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:angle="-90.0"
+                android:centerColor="@color/dark_orange"
+                android:endColor="@color/california"
+                android:startColor="@color/yellow_sea"
+                android:type="linear" />
+
+            <corners android:radius="@dimen/btn_radius" />
+        </shape>
+    </item>
+    <item
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <solid android:color="@color/dark_gray" />
+
+            <corners android:radius="@dimen/btn_radius" />
+        </shape>
+    </item>
+
+</layer-list><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/drawable/btn_default_normal_disable_focused.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_recargar_pacientes"
+        android:icon="@drawable/ic_menu_recargar_dark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_recargar_pacientes"/>
+    <item
+        android:id="@+id/menu_resultados"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/menu_resultados"/>
+    <item
+        android:id="@+id/menu_info"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/menu_info"/>
+    <item
+        android:id="@+id/menu_configuracion"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="@string/menu_configuracion"/>
+    <item
+        android:id="@+id/menu_salir"
+        android:icon="@drawable/ic_menu_salir_dark"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="@string/menu_salir"/>
+    <item
+        android:id="@+id/menu_cerrarsesion"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:title="@string/menu_cerrarsesion"/>
+    <item
+        android:id="@+id/menu_buscar_pacientes"
+        android:icon="@drawable/ic_menu_buscar_dark"
+        android:orderInCategory="1000"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_buscar_pacientes"/>
+
+
+</menu>

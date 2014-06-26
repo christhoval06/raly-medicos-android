@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogo_full"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6000000"
+    android:orientation="vertical"
+    android:padding="@dimen/paciente_info" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nombrePaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/malibu"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="3dp"
+            android:shadowColor="@color/dark_gray"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/paciente_imagen_full"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/paciente_image_info"
+                android:background="@color/white"
+                android:contentDescription="@string/no_paciente"
+                android:src="@drawable/raly_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pacienteComunicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/malibu"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2" >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

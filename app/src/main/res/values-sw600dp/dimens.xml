@@ -1,0 +1,43 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <!-- BOTONES -->
+    <dimen name="btn_storke">5dp</dimen>
+    <dimen name="btn_radius">20dp</dimen>
+
+    <!-- LOGIN -->
+    <dimen name="login_title_margin">20dp</dimen>
+
+    <!-- MAIN -->
+    <dimen name="promocion_title_size">45sp</dimen>
+    <dimen name="promocion_empty_size">30sp</dimen>
+    <!-- MAIN PROMOCION -->
+    <dimen name="main_promocion_title_size">35sp</dimen>
+    <dimen name="main_promocion_precio_size">25sp</dimen>
+
+    <!-- PROMOCION -->
+    <dimen name="promocion_nombre_size">24sp</dimen>
+    <dimen name="promocion_image_size_h">140dp</dimen>
+    <dimen name="promocion_image_size_w">180dp</dimen>
+
+    <!-- PACIENTES -->
+    <dimen name="pacientes_empty">30sp</dimen>
+    <!-- PACIENTES ITEM -->
+    <dimen name="pacientes_item_nombre_size">25sp</dimen>
+    <dimen name="pacientes_item_cedula_size">20sp</dimen>
+    <dimen name="pacientes_item_codigo_size">15sp</dimen>
+    <dimen name="pacientes_item_image_size_w">160dp</dimen>
+    <dimen name="pacientes_item_image_size_h">120dp</dimen>
+    <dimen name="pacientes_item_separacion">5dp</dimen>
+
+    <!-- RESULTADO ITEM -->
+    <dimen name="resultado_item_titulo_size">25sp</dimen>
+
+    <!-- PACIENTE INFO -->
+    <dimen name="paciente_info">50dp</dimen>
+    <dimen name="paciente_image_info">350dp</dimen>
+
+</resources>

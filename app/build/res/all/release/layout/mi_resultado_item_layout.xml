@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@drawable/_form_"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/resultado_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="esta es una prueba"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/resultado_item_titulo_size" />
+
+            <TextView
+                android:id="@+id/resultado_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="fecha"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/file_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_file_delete" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/layout/mi_resultado_item_layout.xml -->

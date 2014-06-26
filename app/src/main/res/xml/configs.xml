@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pdf"
+        android:summary=""
+        android:title="@string/pdf_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="guardar"
+            android:summary="@string/guardar_pdf_summary"
+            android:summaryOff="@string/guardar_pdf_of"
+            android:summaryOn="@string/guardar_pdf_on"
+            android:title="@string/guardar_pdf" />
+
+        <EditTextPreference
+            android:defaultValue="@string/file_default"
+            android:key="file"
+            android:summary="@string/file_summary"
+            android:title="@string/file_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

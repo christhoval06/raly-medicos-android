@@ -1,0 +1,45 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 18
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("cristobal_key")
+            storePassword "c706180t"
+            keyAlias "cristobal"
+            keyPassword "c706180t"
+        }
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            zipAlign true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            runProguard false
+            zipAlign true
+        }
+    }
+}
+
+dependencies {
+    compile project(':actionbarsherlock')
+    compile files('libs/android-query-full.0.26.2-beta.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/picasso-1.1.1.jar')
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/malibu"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/malibu"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:drawSelectorOnTop="false"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@android:color/transparent" />
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/no_resultados_save"
+        android:textColor="@color/aluminium"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/layout/mis_resultados_layout.xml -->

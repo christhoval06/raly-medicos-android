@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- ACTIVIDADES -->
+    <string name="app_name">"Raly Medicos"</string>
+    <string name="actividad_login">"Welcome"</string>
+    <string name="actividad_promocion">"Promotion"</string>
+    <string name="actividad_pacientes">"My Patients"</string>
+    <string name="actividad_info">General Information</string>
+    <string name="actividad_resultados">Results</string>
+
+    <!-- MENU -->
+    <string name="menu_configuracion">"Configuration"</string>
+    <string name="menu_salir">"Exit"</string>
+    <string name="menu_cerrarsesion">"Logout"</string>
+    <string name="menu_info">"General Info"</string>
+    <string name="menu_resultados">My Results</string>
+    <string name="menu_buscar_pacientes">"Search"</string>
+    <string name="menu_recargar_pacientes">"Reload"</string>
+
+    <!-- LOGIN -->
+    <string name="entar">"Login"</string>
+    <string name="salir">"Exit"</string>
+    <string name="usuario">"User"</string>
+    <string name="clave">"Password"</string>
+    <string name="usuario_plhd">"User Name"</string>
+    <string name="clave_plhd">"User Password"</string>
+    <string name="form_login_legend">"Enter your information to login"</string>
+    <!-- LOGIN MSG -->
+    <string name="usuario_error">"missing username"</string>
+    <string name="clave_error">"missing password"</string>
+    <string name="login_loader">"Logging"</string>
+    <string name="save_medico_error">"could not save the doctor"</string>
+
+    <!-- MAIN MSG -->
+    <string name="no_internet_error">"you have no Internet connection"</string>
+    <string name="msg_file_delete">Want to delete xxxx?</string>
+
+    <!-- MAIN BTNS -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- LOADER MSG -->
+    <string name="loader_msg_promociones">"loading promotions"</string>
+    <string name="loader_msg_pacientes">"loading patients"</string>
+    <string name="loader_msg_resultados">"loading results"</string>
+    <string name="loader_msg_archivo">"file downloading"</string>
+
+    <!-- PROMOCIONES -->
+    <string name="promociones_title">"PROMOTIONS"</string>
+    <string name="no_promociones">"no promotions available"</string>
+    <string name="imagen_promocion">"promotion image"</string>
+    <string name="pecio_promocion">Price:</string>
+    <string name="descripcion_promocion">Details</string>
+
+    <!-- PACIENTES -->
+    <string name="no_paciente">"no recent patients"</string>
+    <string name="image">"patient photo"</string>
+    <string name="buscar_pacientes">"search patients"</string>
+    <string name="paciente_telefono">telefono</string>
+    <string name="paciente_email">email</string>
+
+    <!-- RESULTADOS -->
+    <string name="no_resultados">"this patient has no recent results"</string>
+    <string name="resultado_no_listo">this result isn\'t ready.</string>
+    <string name="no_resultados_save">"you haven't saved any results"</string>
+    <string name="mi_resultado_tag">result</string>
+    <string name="mi_resultado_posicion_tag">position</string>
+
+    <string-array name="resultado_menu_contextual">
+        <item>View Results</item>
+        <item>View History</item>
+        <item>Save Result</item>
+        <item>Exit</item>
+    </string-array>
+
+    <!-- CONFIGURACIONES -->
+    <string name="pdf_title">"PDFs Service"</string>
+    <string name="guardar_pdf">"Store files?"</string>
+    <string name="guardar_pdf_summary">"allow this application to store the files on your system"</string>
+    <string name="guardar_pdf_of">"the application does not keep the files on your system"</string>
+    <string name="guardar_pdf_on">"the application will save the files on your system"</string>
+    <string name="file_title">"File"</string>
+    <string name="file_default">"results.pdf"</string>
+    <string name="file_antecedente">"records.pdf"</string>
+    <string name="file_summary">"file name to overwrite the pdf"</string>
+
+    <!-- OTROS MSG -->
+    <string name="msg_no_contact_info">no contact information</string>
+    <string name="msg_selecct_app">Select a App</string>
+
+    <string name="fbk">RalyLab</string>
+    <string name="twt">\@RalyLab</string>
+
+
+</resources>

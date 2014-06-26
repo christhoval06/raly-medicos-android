@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/malibu"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <!--
+        <TextView
+            style="@style/titulo_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_title_margin"
+            android:layout_marginRight="@dimen/login_title_margin"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/actividad_login"
+            android:textStyle="bold|italic" >
+        </TextView>
+
+        -->
+
+        <LinearLayout
+            android:id="@+id/loginForm"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TableLayout
+                style="@style/formulario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/label_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:labelFor="@+id/usuario_txt"
+                        android:paddingRight="6dp"
+                        android:text="@string/usuario" />
+
+                    <LinearLayout
+                        style="@style/line_vertical"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/usuario_txt"
+                        style="@style/textField"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:ems="10"
+                        android:hint="@string/usuario_plhd"
+                        android:inputType="text"
+                        android:typeface="monospace"
+                        android:selectAllOnFocus="false" />
+                </TableRow>
+
+                <LinearLayout
+                    style="@style/line_horizontal"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/label_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:labelFor="@+id/clave_txt"
+                        android:paddingRight="6dp"
+                        android:text="@string/clave" />
+
+                    <LinearLayout
+                        style="@style/line_vertical"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/clave_txt"
+                        style="@style/textField"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:hint="@string/clave_plhd"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="@string/form_login_legend"
+                android:textColor="@color/aluminium"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/login_error_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/entrar_btn"
+                    style="@style/boton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_green"
+                    android:text="@string/entar" />
+
+                <Button
+                    android:id="@+id/salir_btn"
+                    style="@style/boton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_red"
+                    android:text="@string/salir" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal|center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fbk"
+                android:id="@+id/fbk"
+                android:textColor="@color/fbk"
+                android:drawableLeft="@drawable/facebook"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twt"
+                android:id="@+id/twt"
+                android:textColor="@color/twt"
+                android:background="@android:color/transparent"
+                android:shadowColor="@color/fbk"
+                android:drawableLeft="@drawable/twitter"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/layout/login_layout.xml -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/malibu"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ListView
+            android:id="@+id/promociones_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/form_"
+            android:drawSelectorOnTop="false" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/promociones_list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/form_"
+            android:gravity="center_vertical|center_horizontal"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/no_promociones"
+            android:textColor="@color/aluminium"
+            android:textSize="@dimen/promocion_empty_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/layout/main_layout.xml -->

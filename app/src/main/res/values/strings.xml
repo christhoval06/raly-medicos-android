@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ACTIVIDADES -->
+    <string name="app_name">Raly Medicos</string>
+    <string name="actividad_login">Bienvenido</string>
+    <string name="actividad_promocion">Promoción</string>
+    <string name="actividad_pacientes">Mis Pacientes</string>
+    <string name="actividad_info">Información General</string>
+    <string name="actividad_resultados">Resultados</string>
+
+    <!-- MENU -->
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_salir">Salir</string>
+    <string name="menu_cerrarsesion">Cerrar Sesión</string>
+    <string name="menu_info">Info General</string>
+    <string name="menu_resultados">Mis Resultados</string>
+    <string name="menu_buscar_pacientes">Buscar</string>
+    <string name="menu_recargar_pacientes">Recargar</string>
+
+    <!-- LOGIN -->
+    <string name="entar">Iniciar Sesión</string>
+    <string name="salir">Salir</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="usuario_plhd">Nombre del Usuario</string>
+    <string name="clave_plhd">Clave del Usuario</string>
+    <string name="form_login_legend">Introduzca sus datos para iniciar sesión</string>
+    <!-- LOGIN MSG -->
+    <string name="usuario_error">debe especificar su usuario</string>
+    <string name="clave_error">debe especificar su clave</string>
+    <string name="login_loader">Iniciando sesión</string>
+    <string name="save_medico_error">no se pudo guardar el medico</string>
+
+    <!-- MAIN MSG -->
+    <string name="no_internet_error">No tiene conección a Internet</string>
+    <string name="msg_file_delete">Desea eliminar xxxx?</string>
+
+    <!-- MAIN BTNS -->
+    <string name="btn_ok">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- LOADER MSG -->
+    <string name="loader_msg_promociones">cargando promociones</string>
+    <string name="loader_msg_pacientes">cargando pacientes</string>
+    <string name="loader_msg_resultados">cargando resultados</string>
+    <string name="loader_msg_archivo">descargando archivo</string>
+
+    <!-- PROMOCIONES -->
+    <string name="promociones_title">PROMOCIONES</string>
+    <string name="no_promociones">no hay promociones disponibles</string>
+    <string name="imagen_promocion">imagen de la Promoción</string>
+    <string name="pecio_promocion">Precio:</string>
+    <string name="descripcion_promocion">Detalle</string>
+
+    <!-- PACIENTES -->
+    <string name="no_paciente">no tiene pacientes recientes</string>
+    <string name="image">foto del paciente</string>
+    <string name="buscar_pacientes">buscar pacientes</string>
+    <string name="paciente_telefono">telefono</string>
+    <string name="paciente_email">email</string>
+
+    <!-- RESULTADOS -->
+    <string name="no_resultados">Este pacientes no tiene resultados recientes</string>
+    <string name="resultado_no_listo">Este resultado no esta listo.</string>
+    <string name="no_resultados_save">usted no ha guardado ningun resultado</string>
+    <string name="mi_resultado_tag">resultado</string>
+    <string name="mi_resultado_posicion_tag">posicion</string>
+
+    <string-array name="resultado_menu_contextual">
+        <item>Ver Resultado</item>
+        <item>Ver Antecedentes</item>
+        <item>Guardar Resultado</item>
+        <item>Salir</item>
+    </string-array>
+
+    <!-- CONFIGURACIONES -->
+    <string name="pdf_title">Servicio de PDFs</string>
+    <string name="guardar_pdf">desea guardar los archivos?</string>
+    <string name="guardar_pdf_summary">permitir a esta aplicación almacene los archivos en su sistema</string>
+    <string name="guardar_pdf_of">la aplicación no guardara los archivos en su sistema</string>
+    <string name="guardar_pdf_on">la aplicación guardara los archivos en su sistema</string>
+    <string name="file_title">Archivo</string>
+    <string name="file_default">resultados.pdf</string>
+    <string name="file_antecedente">antecedentes.pdf</string>
+    <string name="file_summary">nombre del archivo para sobreescribir el pdf</string>
+
+    <!-- OTROS MSG -->
+    <string name="msg_no_contact_info">no hay información de contacto</string>
+    <string name="msg_selecct_app">Seleccione una App</string>
+
+
+    <string name="fbk">RalyLab</string>
+    <string name="twt">\@RalyLab</string>
+
+</resources>

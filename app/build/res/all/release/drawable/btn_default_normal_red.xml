@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="-90.0"
+        android:centerColor="@color/tomato"
+        android:endColor="@color/firebrick"
+        android:startColor="@color/red"
+        android:type="linear" />
+
+    <corners android:radius="@dimen/btn_radius" />
+
+    <stroke
+        android:width="@dimen/btn_storke"
+        android:color="@color/aluminium" />
+
+</shape><!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/drawable/btn_default_normal_red.xml -->

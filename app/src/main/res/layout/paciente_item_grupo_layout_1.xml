@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/paciente_grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="5dp "
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/paciente_grupo"
+        android:background="@drawable/_form_"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/paciente_imagen"
+            android:layout_width="@dimen/pacientes_item_image_size_h"
+            android:layout_height="@dimen/pacientes_item_image_size_h"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/image"
+            android:maxHeight="@dimen/pacientes_item_image_size_h"
+            android:maxWidth="@dimen/pacientes_item_image_size_h"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/paciente_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/paciente_imagen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/pacientes_item_nombre_size" />
+
+        <TextView
+            android:id="@+id/paciente_cedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/paciente_nombre"
+            android:layout_below="@+id/paciente_nombre"
+            android:layout_marginTop="@dimen/pacientes_item_separacion"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/pacientes_item_cedula_size" />
+
+        <TextView
+            android:id="@+id/paciente_codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/paciente_cedula"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/paciente_cedula"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="@dimen/pacientes_item_codigo_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="11" android:versionName="0.1.0" package="raly.medicos.app">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:debuggable="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Raly_medicos" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/app_name" android:name="raly.medicos.app.Pacientes" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/actividad_login" android:name="raly.medicos.app.Login" android:screenOrientation="portrait" android:theme="@style/Theme.Raly_medicos" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.LOGIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/actividad_promocion" android:name="raly.medicos.app.Promocion" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.PROMOCION"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/actividad_info" android:name="raly.medicos.app.InfoGral" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.INFO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/actividad_resultados" android:name="raly.medicos.app.Resultados" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.REESULTADOS"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/menu_configuracion" android:name="raly.medicos.app.Configuracion" android:screenOrientation="portrait" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.CONFIGURACION"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize|keyboardHidden" android:label="@string/menu_resultados" android:name="raly.medicos.app.MisResultadosGuardados" android:theme="@style/Theme.Raly_medicos">
+            <intent-filter>
+                <action android:name="raly.apps.medicos.FILES"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-perm/>
+
+</manifest>

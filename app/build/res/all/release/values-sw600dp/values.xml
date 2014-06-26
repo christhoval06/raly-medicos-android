@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/build/exploded-aar/androidralymedicosv21/actionbarsherlock/unspecified/res/values-sw600dp/values.xml -->
+    <eat-comment />
+
+    <bool name="abs__action_bar_expanded_action_views_exclusive">false</bool>
+
+    <dimen name="abs__action_bar_default_height">56dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">4dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">9dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abs__action_bar_title_text_size">18dp</dimen>
+    <dimen name="abs__action_button_min_width">64dip</dimen>
+    <!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="btn_radius">20dp</dimen>
+    <dimen name="btn_storke">5dp</dimen>
+    <dimen name="login_title_margin">20dp</dimen>
+    <dimen name="main_promocion_precio_size">25sp</dimen>
+    <dimen name="main_promocion_title_size">35sp</dimen>
+    <dimen name="paciente_image_info">350dp</dimen>
+    <dimen name="paciente_info">50dp</dimen>
+    <dimen name="pacientes_empty">30sp</dimen>
+    <dimen name="pacientes_item_cedula_size">20sp</dimen>
+    <dimen name="pacientes_item_codigo_size">15sp</dimen>
+    <dimen name="pacientes_item_image_size_h">120dp</dimen>
+    <dimen name="pacientes_item_image_size_w">160dp</dimen>
+    <dimen name="pacientes_item_nombre_size">25sp</dimen>
+    <dimen name="pacientes_item_separacion">5dp</dimen>
+    <dimen name="promocion_empty_size">30sp</dimen>
+    <dimen name="promocion_image_size_h">140dp</dimen>
+    <dimen name="promocion_image_size_w">180dp</dimen>
+    <dimen name="promocion_nombre_size">24sp</dimen>
+    <dimen name="promocion_title_size">45sp</dimen>
+    <dimen name="resultado_item_titulo_size">25sp</dimen>
+    <!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/build/exploded-aar/androidralymedicosv21/actionbarsherlock/unspecified/res/values-sw600dp/values.xml -->
+    <eat-comment />
+
+    <integer name="abs__max_action_buttons">5</integer>
+    <!-- From: file:/Users/cbarba/AndroidStudioProjects/androidralymedicosv21/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment />
+
+    <style name="boton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="formulario">
+        <item name="android:background">@drawable/form</item>
+    </style>
+
+    <style name="label_right">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="line_horizontal">
+        <item name="android:layout_height">2sp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="line_vertical">
+        <item name="android:layout_width">2sp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="textField">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="titulo_login" parent="@android:style/Widget.TextView">
+        <item name="android:drawableLeft">@drawable/raly_logo</item>
+        <item name="android:textSize">65sp</item>
+    </style>
+
+</resources>

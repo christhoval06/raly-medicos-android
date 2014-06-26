@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pressed_raly_medicos">#CC33B5E5</color>
+    <color name="malibu">#CC33B5E5</color>
+    <color name="dark_turquoise">#2FE9E9</color>
+
+    <!-- FORMULARIO -->
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="aluminium">#888888</color>
+    <color name="white_smoke">#EAEAEA</color>
+
+    <!-- BOTON VERDE -->
+    <color name="green">#0CE20C</color>
+    <color name="forest_green">#2DA22D</color>
+    <color name="dark_green">#237823</color>
+
+    <!-- BOTON ROJO -->
+    <color name="red">#FC0C0C</color>
+    <color name="tomato">#D42929</color>
+    <color name="firebrick">#B62828</color>
+
+    <!-- BOTON DEFAULT NORMAL -->
+    <color name="dark_gray">#A5A5A5</color>
+
+    <!-- BOTON DEFAULT PRESSED -->
+    <color name="kournikova">#FFD654</color>
+    <color name="supernova">#E89B00</color>
+    <color name="moon_yellow">#FBC41B</color>
+
+    <!-- BOTON DEFAULT SELECTED -->
+    <color name="yellow_sea">#FFA23F</color>
+    <color name="dark_orange">#ED6200</color>
+    <color name="california">#EC8B38</color>
+
+    <color name="fbk">#3b5998</color>
+    <color name="twt">#00aced</color>
+
+</resources>
